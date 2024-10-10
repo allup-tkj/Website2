@@ -5,7 +5,6 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: sans-serif;
 }
 :root {
     --main-color: #BF00FF;
@@ -28,7 +27,7 @@
 
 /*navbar*/
 .navbar {
-    background-color: #9000D6;
+    background-color: #b4c6f6;
     overflow: hidden;
     display: flex;
     justify-content: space-between; /* Membuat jarak antara elemen kiri dan kanan */
@@ -38,13 +37,14 @@
 }
 
 .brand {
+    font-family: monospace;
     font-size: 20px;
-    color: white;
+    color: rgb(173, 28, 235);
     padding-left: 20px;
 }
 
 .lastname {
-    color: rgb(255, 53, 93);
+    color: rgb(154, 53, 255);
 }
 
 .navbar-list {
@@ -52,10 +52,16 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: monospace;
 }
 
 .navbar-item {
     margin: 0 10px; /* Jarak antara setiap item */
+    background-color: #BF00FF;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
 }
 
 .navbar-item a {
@@ -77,7 +83,7 @@
     margin-top: 2rem;
     margin: 0;
     align-items: center;
-    background: #fff0f5;
+    background: #b4c6f6;
     flex-wrap: wrap;
 }
 .logo{
@@ -85,9 +91,12 @@
     padding-left: 150px;
 }
 .text{
+    font-family: monospace;
     flex: 1 1 21rem;
+    text-align: center;
     padding-right: 200px;
-    font-size: 22px;
+    padding-left: 20px;
+    font-size: 25px;
 }
 /*produk kami*/
 .row {
@@ -198,7 +207,7 @@
 }
 
 .title-prod {
-    font-size: 0.9rem;
+    font-size: 0.9 rem;
     text-align: center;
     color: var(--dark);
     font-weight: 500;
@@ -241,7 +250,7 @@
 .tentang {
     display: flex;
     flex-wrap: wrap;
-    background: #fff0f5;
+    background: #b4c6f6;
     gap: 1.5rem;
 }
 .tentang-img {
@@ -449,7 +458,7 @@ video {
 }
 .tentang-video{
     text-align: center;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 .tentang-video p{
     text-align: center;
